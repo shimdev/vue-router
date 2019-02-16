@@ -1,18 +1,14 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-link to="/class">Data Kelas</router-link>&nbsp; &nbsp;
+    <router-link to="/student">Data Siswa</router-link>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+  name: 'app'
 }
 </script>
 
@@ -25,4 +21,30 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  min-width: 50%;
+  max-width: 95%;
+  margin: 20px auto;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td:first-child, th {
+  text-align: center;
+}
+
+th {
+  background-color: #23cea2;
+  color: #fff;
+}
+
+img { border-radius: 50% }
 </style>

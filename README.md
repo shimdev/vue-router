@@ -1,29 +1,19 @@
-# my
+# Vue Router
+## Instalasi Proyek vue-router
+1. Unduh atau salin proyek:
+```
+git clone https://github.com/shimdev/vue-router
+```
+2. Arahkan ke direktori proyek tersebut kemudian: **npm install**
+3. Setelah proses instalasi *node modules* selesai, jalankan kuis dengan: **npm run serve**
+```
+App running at:
+- Local: http://localhost:8081/
+- Network: http://your.ip:8081/
+```
+4. Buka *url* di atas menggunakan *browser*
 
-## Project setup
-```
-npm install
-```
+# Implementasi Vue Router
+Vue.js memiliki *router* resmi, yaitu Vue Router yang berguna untuk melakukan *routing* serta membangun SPA (Single Page Application). *Routing* mengatur bagaimana suatu halaman pada sebuah *website* diakses oleh pengguna. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Dengan menggunakan Vue Router, navigasi antar halaman bisa dilakukan tanpa perlu *reload*. Fitur Vue Router lainnya bisa dilihat di [Router: Introduction](https://router.vuejs.org/);
