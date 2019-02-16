@@ -21,4 +21,16 @@ App running at:
 | Direktori  | Penjelasan |
 | ------------- | ------------- |
 | src/router/... | Berisi **index.js** yang berguna untuk memetakan *route* **path** beserta **komponennya**. *Path* merupakan lokasi yang bisa diakses di-*address bar browser* guna menampilkan komponen. |
-| src/components/... | Terdapat komponen-komponen yang nantinya akan ditampilkan apabila *path*-nya telah diatur dalam **index.js** |
+| src/components/... | Terdapat komponen-komponen yang nantinya akan ditampilkan apabila *path*-nya telah diatur |
+
+## Bedah Koding
+```
+<router-link to="/path"></router-link>
+<router-view/>
+```
+Apabila sebuah *link* -yang menampung sebuah komponen dan lokasinya telah dikonfigurasi pada **index.js**- diklik, maka komponen yang disimpan dalam lokasi tersebut akan dimuat di **router-view**.
+
+| Elemen  | Fungsi |
+| ------------- | ------------- |
+| router-link | Membuat *link* ke sebuah komponen |
+| router-view | Menampung komponen yang akan ditampilkan |
